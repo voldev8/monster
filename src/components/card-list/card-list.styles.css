@@ -1,0 +1,10 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  justify-content: space-evenly;
+  grid-gap: 20px;
+  justify-items: center;
+  padding: 60px 0;
+}
